@@ -1,0 +1,17 @@
+# 权重与编译产物：体积大且可复现，不入库
+*.pt
+*.pth
+*.onnx
+*.engine
+*.plan
+*.xmodel
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 系统
+.DS_Store
