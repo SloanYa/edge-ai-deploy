@@ -1,0 +1,4 @@
+train: C:\Users\87143\deploy_w1\data\NEU-DET\test
+val: C:\Users\87143\deploy_w1\data\NEU-DET\test
+nc: 6
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']

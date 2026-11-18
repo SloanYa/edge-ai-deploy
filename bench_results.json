@@ -1,0 +1,43 @@
+{
+  "PyTorch_FP32": {
+    "latency_ms": 32.88,
+    "fps": 30.4,
+    "mAP50": 0.7493,
+    "mAP5095": 0.406,
+    "vram_MB": 200.1
+  },
+  "PyTorch_FP16": {
+    "latency_ms": 31.07,
+    "fps": 32.2,
+    "mAP50": 0.7471,
+    "mAP5095": 0.4062,
+    "vram_MB": 195.7
+  },
+  "ORT_GPU_FP32": {
+    "latency_ms": 19.37,
+    "fps": 51.6,
+    "mAP50": 0.7039,
+    "mAP5095": 0.3678,
+    "vram_MB": 36.3
+  },
+  "ORT_GPU_FP32_newexport": {
+    "latency_ms": 17.53,
+    "fps": 57.1,
+    "mAP50": 0.7039,
+    "mAP5095": 0.3681,
+    "vram_MB": 2.0
+  },
+  "pure_forward": {
+    "pure_forward_FP32_ms": 28.31,
+    "pure_forward_FP16_ms": 30.621,
+    "fp16_speedup_pct": -8.2
+  },
+  "pure_forward_v2": {
+    "forward_224_FP32_ms": 23.125,
+    "forward_224_FP16_ms": 29.46,
+    "forward_224_fp16_gain_pct": -27.4,
+    "forward_640_FP32_ms": 23.54,
+    "forward_640_FP16_ms": 28.924,
+    "forward_640_fp16_gain_pct": -22.9
+  }
+}
